@@ -11,6 +11,7 @@
     "@babel/preset-env": "7.12.1",
     "@babel/traverse": "7.12.5",
     "@types/babel__traverse": "7.0.15",
+    "marked": "^4.0.15",
     "shelljs": "0.8.4",
     "ts-node": "9.0.0",
     "typescript": "4.0.5"
