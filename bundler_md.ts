@@ -78,7 +78,6 @@ function collectCodeAndDeps(filepath: string) {
   let code = readFileSync(filepath).toString();
   if (/\.md$/.test(filepath)) {
     code = require("./loaders/markdown-loader.js")(code);
-    console.log("markdown", code);
   }
   if (/\.css$/.test(filepath)) {
     // 如何文件路径以 .css 结尾
